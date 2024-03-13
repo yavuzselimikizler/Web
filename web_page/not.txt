@@ -1,0 +1,3 @@
+fetching,json
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+http-server

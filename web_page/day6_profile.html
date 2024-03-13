@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Document2</title>
+</head>
+<body>
+    
+<style>
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+@media screen and  (max-width: 450px) {
+
+    
+    .main_screen{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .up_bar{
+        width: 100% !important;
+        height: 20% !important;
+        background-color: rgb(117 143 55 / 76%);
+        max-width: none!important;
+    }
+    .content_part{
+        width: 100% !important;
+        height: 80% !important;
+        display: flex;
+        flex-direction: column-reverse !important;
+        align-items: flex-start !important; /* Align items to the left */
+    justify-content: flex-start !important;
+
+    }
+    .up img{
+        width: 30px !important;
+        height: 30px !important;
+    }
+
+    .user_photo{
+        width: 50%;
+        padding-top: 10% !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .profile_inner{
+        width: 100% !important;
+    }
+    .user_info {
+    display: flex;
+    flex-direction: column !important;
+    align-items: flex-start !important; /* Align items to the left */
+    justify-content: flex-start !important; /* Align vertically to the top */
+    height: 100%;
+    width: 90% !important;
+    margin-left: 5%;
+    opacity: 1.0 !important;
+}
+}
+
+
+.main_screen{
+
+    width: 100%;
+
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.up_bar{
+
+    width: 30%;
+    height: 100%;
+    background-color: rgb(117 143 55 / 76%);
+    max-width: 300px;
+
+}
+.up_bar img{
+    width: 100%;
+}
+.content_part{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+
+   
+    background-color: rgb(233, 228, 228);
+   
+}
+
+
+.user_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 40%;
+    margin-left: 5%;
+    opacity: 1.0 !important;
+}
+
+.user_info h4{
+    color: black;
+}
+
+.user_photo{
+
+    padding-top: 30%;
+}
+.upper{
+    color: black;
+    display: flex;
+    align-self: flex-start;
+    margin-left: 10%;
+    margin-bottom: 0;
+
+}
+h2{
+    color: black;
+    
+}
+.blocks{
+
+    width: 50%;
+    height: 20px;
+    background-color: rgb(159, 156, 156);
+    margin-left: 10%;
+    align-self: flex-start;
+    margin-bottom: 5px;
+    overflow: scroll;
+     scrollbar-width: thin; /* For Firefox */
+    scrollbar-color: gray lightgray; /* For Firefox */
+
+    /* For WebKit-based browsers (Chrome, Safari) */
+    &::-webkit-scrollbar {
+        width: 2px; /* Set the width of the scrollbar */
+        height: 5px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: gray; /* Color of the thumb */
+    }
+
+    &::-webkit-scrollbar-track {
+        background-color: lightgray; /* Color of the track */
+    }
+}
+
+ul {
+    list-style: none; /* Remove bullet points */
+}
+
+
+#big_block{
+    height: 20% !important;
+    width: 80% !important;
+}
+
+.profile_inner{
+    padding-top: 10%;
+    width: 50%;
+   display: flex;
+   justify-content: center;
+}
+
+</style>
+
+<div class = "main_screen">
+
+    <div class ="up_bar">
+
+        <img src="ye_fit_logo.jpg">
+        <ul>
+            <li>
+                AnaSayfa
+            </li>
+            <li>
+                Musterilerim
+            </li>
+            <li>
+                Mesajlarim
+            </li>
+        </ul>
+    </div>
+
+    <div class = "content_part">
+
+        <div class = "user_info">
+            <h2 class = "upper">
+                Isim-Soyisim
+            </h2>
+            <div class="blocks">
+                dqdqw
+            </div>
+            <h2 class = "upper">
+                Email
+            </h2>
+            <div class="blocks">
+                dqdqw
+            </div>
+            <h2 class = "upper">
+                Telefon-Numarasi
+            </h2>
+            <div class="blocks">
+                dqdqw
+            </div>
+            <h2 class = "upper">
+                Kendinizi-Anlatiniz
+            </h2>
+            <div class="blocks" id ="big_block">
+                dqdqwqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq
+                ssswqwsssssssssssssss
+            </div>
+
+        </div>
+
+        <div class = "profile_inner">
+
+       
+            <div class = "user_photo">
+
+                <img src="profile_photo.jpg">
+
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+
+<script>
+
+
+</script>
+</body>
+
+</html>
